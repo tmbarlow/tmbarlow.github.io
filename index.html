@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-0hg9nIBwdqzDMXB5NKI6aLmOMkt8sWpL8xY0q9J7eAS/UYXIqoZ/iXiRxQYe0znl" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
 
     <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"> -->
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -40,7 +40,7 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase bg-dark" id="mainNav">
-        <div class="container">
+        <!-- <div class="container-fluid"> -->
           <a class="navbar-brand js-scroll-trigger" href="#page-top">Tyler Barlow</a>
           <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             Menu
@@ -59,8 +59,8 @@
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
+        <!-- </div> -->
+  </nav>
   
       <div class="container">
     
@@ -68,7 +68,7 @@
         <header class="masthead bg-primary text-white text-center">
           <div class="container">
               <div>
-                    <img class="circular--portrait" id="photoOfMe" src="assets/images/tyler.jpg" alt="">
+                    <img class="circular--portrait" id="photoOfMe" src="images/tyler.jpg" alt="">
               </div>
            
             <!-- class="img-fluid mb-5 d-block mx-auto"  -->
@@ -87,84 +87,57 @@
           <div class="container">
             <h2 class="text-center text-uppercase text-secondary mb-0" >Portfolio</h2>
             <hr class="star-dark mb-5">
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="http://via.placeholder.com/300x200" alt="">
+            <div class="item row">
+                <a class="col-md-4 col-sm-4 col-xs-12" href="https://tmbarlow.github.io/AnytimeTrain/" target="_blank">
+                <img class="img-responsive project-image" src="images/projects/anyTimeTrain.JPG" alt="AnyTimeTrain" />
                 </a>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="http://via.placeholder.com/300x200" alt="">
+                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title">AnyTimeTrain</h3>
+                    <p>Created a train schedule application that incorporates Firebase to host arrival and departure data. The app will retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+                    <p><a class="more-link" href="https://github.com/tmbarlow/AnytimeTrain" target="_blank"><i class="fa fa-external-link"></i> GitHub</a></p>
+                </div><!--//desc-->                          
+              </div><!--//item-->
+                <hr>
+                <div class="item row">
+                  <a class="col-md-4 col-sm-4 col-xs-12" href="https://tmbarlow.github.io/CelebritySearch/" target="_blank">
+                    <img class="img-responsive project-image" src="images/projects/CelebritySearch.JPG" alt="Celebrity GIF Search" />
+                  </a>
+                  <div class="desc col-md-8 col-sm-8 col-xs-12">
+                      <h3 class="title">Celebrity GIF Search</h3>
+                      <p>Used the GIPHY API to make a dynamic web page that populates with gifs of celebrities. Addtional celebrities can be added.</p>
+                      <p><a class="more-link" href="https://github.com/tmbarlow/CelebritySearch" target="_blank"><i class="fa fa-external-link"></i> GitHub</a></p>
+                  </div><!--//desc-->                          
+              </div><!--//item-->
+              <hr>
+              <div class="item row">
+                <a class="col-md-4 col-sm-4 col-xs-12" href="https://tmbarlow.github.io/TriviaGame/" target="_blank">
+                <img class="img-responsive project-image" src="images/projects/triviaGame.JPG" alt="New York Trivia" />
                 </a>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="http://via.placeholder.com/300x200" alt="">
-                </a>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="http://via.placeholder.com/300x200" alt="">
-                </a>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <i class="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="http://via.placeholder.com/300x200" alt="">
-                </a>
-              </div>
-              <div class="col-md-6 col-lg-4">
-                <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
-                  <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                    <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                      <!-- <i class="fa fa-search-plus fa-3x"></i> -->
-                      <div id="about"></div>
-                    </div>
-                  </div>
-                  <img class="img-fluid" src="http://via.placeholder.com/300x200" alt="">
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                    <h3 class="title">New York Trivia</h3>
+                    <p>Created a train schedule application that incorporates Firebase to host arrival and departure data. The app will retrieve and manipulate this information with Moment.js. This website will provide up-to-date information about various trains, namely their arrival times and how many minutes remain until they arrive at their station.</p>
+                    <div id="about"></div>
+                    <p><a class="more-link" href="https://github.com/tmbarlow/TriviaGame" target="_blank"><i class="fa fa-external-link"></i> GitHub</a></p>
+                    
+                </div><!--//desc-->                          
+              </div><!--//item-->
+            </div><!--//container-->
+          </div><!--//container-->
+        </section> <!--//portfolio-->
     
-        <!-- About Section -->
-        <section class="bg-primary text-white mb-0">
+        <!-- About Me Section -->
+        <section class="bg-primary text-white mb-0" >
           <div class="container">
-            <h2 class="text-center text-uppercase text-white">About</h2>
+            <h2 class="text-center text-uppercase text-white">About Me</h2>
             <hr class="star-light mb-5">
             <div class="row">
               <div class="col-lg-4 ml-auto">
-                <p class="lead">Life-long seeker of knowledge and Urban Planning graduate who currently has his sights set on a full-time web development position. Experienced in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Ionic Mobile Framework, Node Js, MySQL, MongoDB, Express, Handlebars, ReactJS, and PHP. </p>
+                <p class="lead">Life-long seeker of knowledge and Urban Planning graduate who currently has his sights set on a full-time web development position. Experienced in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Ionic Mobile Framework, Node Js, MySQL, MongoDB, Express, Handlebars, ReactJS, and Python/Django. </p>
               </div>
               <div class="col-lg-4 mr-auto">
                 <p class="lead">I love to travel! I also enjoying having a delicious Sauvignon Blanc from New Zealand with a specialty cheese in my backyard.
                     </p>
+                    
               </div>
             </div>
             <div class="text-center mt-4">
@@ -182,7 +155,7 @@
             <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
             <hr class="star-dark mb-5">
             <div class="row">
-              <div class="col-lg-8 mx-auto">
+              <div class="col-lg-8 mx-auto"> -->
                 <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                 <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
                 <!-- <form name="sentMessage" id="contactForm" novalidate="novalidate">
@@ -223,7 +196,7 @@
               </div>
             </div>
           </div>
-        </section> -->   
+        </section>  -->
       
 
         <section id="contact">
@@ -255,7 +228,7 @@
                 <h4 class="text-uppercase mb-4">Around the Web</h4>
                 <ul class="list-inline mb-0">
                   <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                    <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/tmbarlow">
                       <i class="fa fa-fw fab fa-github"></i>
                     </a>
                   </li>
@@ -302,4 +275,21 @@
             <i class="fa fa-chevron-up"></i>
           </a>
         </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Plugin JavaScript -->
+    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
+
+    <!-- Contact Form JavaScript -->
+    <!-- <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script> -->
+
+    <!-- Custom scripts for this template -->
+    <!-- <script src="js/freelancer.min.js"></script> -->
+
+  </body> 
 </html>

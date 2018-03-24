@@ -1,0 +1,21 @@
+{
+  "name": "tmbarlow.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmbarlow/tmbarlow.github.io.git"
+  },
+  "author": "tyler barlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmbarlow/tmbarlow.github.io/issues"
+  },
+  "homepage": "https://github.com/tmbarlow/tmbarlow.github.io#readme"
+}
